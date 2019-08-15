@@ -1,0 +1,31 @@
+@import '../../../styles.scss';
+
+.hero {
+    background: url(~/assets/img/hero-bg.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: lowercase;
+    margin-top: -100px;
+}
+
+.hero__text-holder {
+    margin-left: 100px;
+}
+
+.hero__title {
+    font-size: 450%;
+    color: #fff;
+}
+
+.hero__subtitle {
+    font-size: 370%;
+    color: $color-primary;
+}
+
+
+
